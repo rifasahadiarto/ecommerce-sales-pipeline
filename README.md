@@ -1,10 +1,10 @@
-# 📊 E-Commerce Sales Cleaning & Analytics Pipeline
+# E-Commerce Sales Cleaning & Analytics Pipeline
 
 An automated data pipeline and analytics workflow built with **Python**, **DuckDB**, and **Matplotlib**. This project demonstrates end-to-end handling of dirty e-commerce transactional data, SQL-based data cleaning, aggregation, and executive-level visualization.
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 In real-world e-commerce databases, raw transactional records often suffer from:
 1. **Inconsistent naming conventions** (e.g., typos like `Jakrta` and abbreviations like `JKT`).
 2. **Anomaly values** (negative sales `-50,000` or zero values `0`).
@@ -14,14 +14,14 @@ Uncleaned data leads to inaccurate business metrics and skewed regional revenue 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Database Engine:** [DuckDB](https://duckdb.org/) (High-performance in-memory analytical SQL engine)
 - **Language:** Python 3.x
 - **Visualization:** Matplotlib
 
 ---
 
-## 🧼 Data Pipeline Architecture
+## Data Pipeline Architecture
 
 ```
 [Raw Ingestion] ──► [SQL Data Cleaning] ──► [Analytical Aggregation] ──► [Executive Chart]
@@ -36,7 +36,7 @@ Uncleaned data leads to inaccurate business metrics and skewed regional revenue 
 
 ---
 
-## 📈 Key Insights & Results
+## Key Insights & Results
 
 ![Sales Performance](grafik_penjualan.png)
 
@@ -46,7 +46,7 @@ Uncleaned data leads to inaccurate business metrics and skewed regional revenue 
 
 ---
 
-## 🚀 How to Run Locally
+##s How to Run Locally
 
 1. **Clone the repository:**
    ```bash
